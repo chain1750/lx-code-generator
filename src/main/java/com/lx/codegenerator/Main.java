@@ -1,4 +1,4 @@
-package com.lx;
+package com.lx.codegenerator;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;

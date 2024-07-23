@@ -1,4 +1,4 @@
-package com.lx.user.entity;
+package com.lx.test.entity;
 
 import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
@@ -10,12 +10,12 @@ import java.time.LocalDateTime;
 import lombok.Data;
 
 /**
- * 表1
+ * 测试表2
  *
- * @author chenhaizhuang
+ * @author lx
  */
 @Data
-public class Table1 {
+public class Table2 {
 
     /**
      * ID
@@ -48,17 +48,12 @@ public class Table1 {
     private Integer version;
 
     /**
-     * 头像
+     * 名称
      */
-    private String avatar;
+    private String name;
 
     /**
-     * 昵称
-     */
-    private String nickname;
-
-    /**
-     * 性别：1-男，2-女
+     * 性别：0-未知，1-男，2-女
      */
     private Integer sex;
 }
